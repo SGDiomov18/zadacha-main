@@ -1,8 +1,8 @@
-create table People(
- Id int auto_increment,
- UserName varchar(30) NOT NULL,
- Email varchar(35) NOT NULL,
- Description varchar(300)
+create table Person(
+ id int auto_increment,
+ userName varchar(30) NOT NULL,
+ email varchar(35) NOT NULL,
+ description varchar(300)
 );
 
-INSERT INTO theRock(UserName, Email, Description) Values ('Someone','someone@gmail.com','someone someone');
+INSERT INTO Person(userName, email, description) Values ('Someone','Someone@gmail.com','Someone SOmeone');
